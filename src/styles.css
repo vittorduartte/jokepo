@@ -129,3 +129,31 @@ button {
 .container-header .container-hero h2:hover{
     opacity: 1;
 }
+
+.container-socialmedia {
+    margin-top: 100px;
+    max-width: 1024px;
+    margin: 8px auto;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.container-socialmedia i{
+    margin-left: 15px;
+}
+
+.container-footer {
+    width: 100%;
+    max-width: 1024px;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 2px dashed #FFFFFF;
+}
+
+.container-footer p{
+    color: #FFF;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 10px;
+}
