@@ -7,9 +7,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-primary: #F5E29B;
+    --color-second: #FFF;
+    --color-dark: #333333;
+}
+
 body {
     font: 400 12px 'Bitter', serif;
-    background: #F5E29B;
+    background: var(--color-primary);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -21,30 +27,36 @@ button {
 .container-header header{
     width: 100%;
     max-width: 1024px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .container-header header h1{
-    color: #FFF;
+    color: var(--color-second);
     font-size: 25px;
     font-weight: 700;
-    float: left;
     cursor: pointer;
 }
 
 .container-header header nav{
     display: flex;
     align-items: center;
-    float: right;
 }
 
 .container-header header nav a{
-    color: #FFF;
+    color: var(--color-second);
     font-size: 18px;
-    padding: 0 20px;
+    padding: 5px 20px;
     text-decoration: none;
     transition: color 0.2s;
+}
+
+.container-header header nav a:hover {
+    color: var(--color-dark);
 }
 
 .container-header header nav a button{
@@ -52,8 +64,8 @@ button {
     min-width: 100px;
     width: 100%;
     text-align: center;
-    color: #F5E29B;
-    background-color: #FFF;
+    color: var(--color-primary);
+    background-color: var(--color-second);
     border: 0;
     border-radius: 8px;
     cursor: pointer;
@@ -62,12 +74,8 @@ button {
 }
 
 .container-header header nav a button:hover {
-    background-color: #333333;
-    color: #FFF;
-}
-
-.container-header header nav a:hover {
-    color:#333333;
+    background-color: var(--color-dark);
+    color: var(--color-second);
 }
 
 .container-header {
@@ -77,7 +85,7 @@ button {
     background-size: 850px 300px;
 }
 
-.container-hero {
+.container-play {
     width: 100%;
     margin-top: 200px;
     text-align: center;
@@ -85,48 +93,48 @@ button {
 
 .container-header h1{
     font-size: 45px;
-    color: #333333;
+    color: var(--color-dark);
 }
 
 .container-header h3{
     font-size: 25px;
     font-weight: 400;
     margin-top: 20px;
-    color: #333333;
+    color: var(--color-dark);
 }
 
-.container-header .container-hero button{
+.container-header .container-play button{
     height: 40px;
     width: 220px;
     margin-top: 80px;
-    color: #333333;
+    color: var(--color-dark);
     font-weight: 700;
     text-align: center;
     border: 0;
-    background-color: #FFF;
+    background-color: var(--color-second);
     border-radius: 4px;
     cursor: pointer;
     transition: filter 0.2s;
 }
 
-.container-header .container-hero button:hover{
-    filter: brightness(0.96);
+.container-header .container-play button:hover{
+    filter: brightness(0.94);
 }
 
-.container-header .container-hero a{
+.container-header .container-play a{
     text-decoration: none;
 }
 
-.container-header .container-hero h2{
+.container-header .container-play h2{
     margin-top: 20px;
     font-weight: 700;
-    color: #333333;
+    color: var(--color-dark);
     opacity: 0.4;
     cursor: pointer;
     transition: opacity 0.2s;
 }
 
-.container-header .container-hero h2:hover{
+.container-header .container-play h2:hover{
     opacity: 1;
 }
 
@@ -134,7 +142,7 @@ button {
     margin-top: 100px;
     max-width: 1024px;
     margin: 8px auto;
-    color: #FFFFFF;
+    color: var(--color-second);
     display: flex;
     align-items: center;
 }
@@ -148,12 +156,33 @@ button {
     max-width: 1024px;
     height: 50px;
     margin: 0 auto;
-    border-top: 2px dashed #FFFFFF;
+    border-top: 2px dashed var(--color-second);
 }
 
 .container-footer p{
-    color: #FFF;
+    color: var(--color-second);
     font-weight: 400;
     padding: 20px 0;
     line-height: 10px;
 }
+
+.container-play .round-counter {
+    margin: 0;
+}
+
+.players {
+    display: inline-flex;
+    align-items: center;
+}
+
+.players img{
+    width: 150px;
+    height: 150px;
+}
+
+.players h3{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
