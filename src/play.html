@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Clic.ly - Not found page</title>
 </head>
+
 <body>
-    <div class="container-header">
+    <div class="container-header play">
         <header>
             <h1>Clic.ly</h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Princing</a>
-            <a href="">About Us</a>
-            <a href=""><button>Log in</button></a>
-        </nav>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Princing</a>
+                <a href="">About Us</a>
+                <a href=""><button>Log in</button></a>
+            </nav>
         </header>
+    </div>
 
-        <div class="container-play">
-            <h1 class="round-counter">Round 1</h1>
-            <h1 class="scoreboard">0 - 0</h1>
-            <div class="players">
+    <div class="container-play">
+        <div class="round-counter">
+            <h1>Round 1</h1>
+            <h1>0 - 0</h1>
+        </div>
+        <div class="players">
+            <div class="user-player">
+                <h3>You</h3>
                 <img src="./assets/lefthand.svg" alt="leftHand">
-                <h3>VS</h3>
+                <ul>
+                    <li>
+                        <a href=""><img src="./assets/rock.svg" alt="rock"></a> 
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/paper.svg" alt="paper"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/scissors.svg" alt="scissors"></a>
+                    </li>
+                </ul>
+            </div>
+            <h1>VS</h1>
+            <div class="ai-player">
+                <h3>Clic.ly AI</h3>
                 <img src="./assets/righthand.svg" alt="rightHand">
             </div>
         </div>
-        
-        <div class="container-socialmedia">
-            <i class="fab fa-2x fa-twitter"></i>
-            <i class="fab fa-2x fa-facebook-square"></i>
-            <i class="fab fa-2x fa-instagram"></i>
-        </div>
-        <div class="container-footer">
-            <p>© Business 2019. All rights reserved. Company registered in US No. 123456789.</p>
-        </div>
-        
-        <!--Main JS-->
-        <script src="./main.js"></script>
-        <!-- Using Font Awesome -->
-        <script src="https://kit.fontawesome.com/e695a3191d.js" crossorigin="anonymous"></script>
     </div>
+
+    <div class="container-socialmedia">
+        <i class="fab fa-2x fa-twitter"></i>
+        <i class="fab fa-2x fa-facebook-square"></i>
+        <i class="fab fa-2x fa-instagram"></i>
+    </div>
+    <div class="container-footer">
+        <p>© Business 2019. All rights reserved. Company registered in US No. 123456789.</p>
+    </div>
+
+
+    <!--Main JS-->
+    <script src="./main.js"></script>
+    <!-- Using Font Awesome -->
+    <script src="https://kit.fontawesome.com/e695a3191d.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

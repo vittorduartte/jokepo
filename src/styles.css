@@ -78,16 +78,16 @@ button {
     color: var(--color-second);
 }
 
-.container-header {
+#index {
     width: 100%;
-    height: 600px;
     background: url(./assets/404.svg) no-repeat center;
     background-size: 850px 300px;
+    background-position-y: 160px;
 }
 
-.container-play {
+.container-middle {
     width: 100%;
-    margin-top: 200px;
+    margin: 150px 0 100px 0;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ button {
     color: var(--color-dark);
 }
 
-.container-header .container-play button{
+.container-header .container-middle button{
     height: 40px;
     width: 220px;
     margin-top: 80px;
@@ -117,15 +117,15 @@ button {
     transition: filter 0.2s;
 }
 
-.container-header .container-play button:hover{
+.container-header .container-middle button:hover{
     filter: brightness(0.94);
 }
 
-.container-header .container-play a{
+.container-header .container-middle a{
     text-decoration: none;
 }
 
-.container-header .container-play h2{
+.container-header .container-middle h2{
     margin-top: 20px;
     font-weight: 700;
     color: var(--color-dark);
@@ -134,7 +134,7 @@ button {
     transition: opacity 0.2s;
 }
 
-.container-header .container-play h2:hover{
+.container-header .container-middle h2:hover{
     opacity: 1;
 }
 
@@ -166,13 +166,27 @@ button {
     line-height: 10px;
 }
 
-.container-play .round-counter {
-    margin: 0;
+/* Play Page */
+
+.container-play {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.container-play .round-counter{
+    font-size: 30px;
+    color: var(--color-dark);
+    margin-bottom: 60px;
 }
 
 .players {
-    display: inline-flex;
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    padding-right: 90px;
 }
 
 .players img{
@@ -180,9 +194,36 @@ button {
     height: 150px;
 }
 
-.players h3{
-    font-size: 60px;
-    font-weight: 700;
+.players h1{
+    font-size: 100px;
+    color: var(--color-dark);
+    opacity: 0.4;
+    margin-bottom: 80px;
 }
+
+.players h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    opacity: 0.4;
+    color: var(--color-dark);
+}
+
+.players .user-player ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.players .user-player ul li img{
+    width: 80px;
+    height: 80px;
+}
+
+.players .ai-player {
+    margin-bottom: 80px;
+} 
+
 
 
