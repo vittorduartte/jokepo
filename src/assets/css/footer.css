@@ -1,0 +1,41 @@
+.footer {
+    position: absolute;
+    max-width: 1270px;
+    height: 130px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.stripe-line {
+    margin: 15px 0;
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-image:linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, transparent 50%);
+    background-size:15px 1px;
+    background-repeat:repeat-x;
+}
+
+.footer .__social-medias .social-media-item {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.footer .__social-medias .social-media-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer .__description {
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
