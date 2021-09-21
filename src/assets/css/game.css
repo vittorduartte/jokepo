@@ -5,7 +5,7 @@
     color: #333333;
 }
 
-.label {
+.player__label {
     font-family: "Bitter";
     opacity: 0.4;
     margin-bottom: 40px;
@@ -92,7 +92,7 @@ img.icon-choice {
     align-items: center;
 }
 
-.__choices .choice .label__choice {
+.__choices .choice .choice__label {
     opacity: 0;
     margin: 10px 0;
     font-family: "Bitter";
@@ -109,15 +109,7 @@ img.icon-choice {
     transition: all 0.2s;
 }
 
-.__choices .choice button:focus  {
-    box-shadow: 0px 1px 1px 0px #00000040;
-}
-
-.__choices .choice button:focus img {
-    opacity: 1;
-}
-
-.__choices .choice:focus h4 {
+.__choices .choice h4.is-selected {
     opacity: 1;
 }
 
@@ -126,4 +118,8 @@ img.icon-choice {
     height: auto;
     width: 30px;
     opacity: 0.5;
+}
+
+.__choices .choice button img.is-selected {
+    opacity: 1;
 }
