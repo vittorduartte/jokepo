@@ -3,7 +3,7 @@
  [🇧🇷] O Jokepo foi um desafio encontrado em um material de apoio da comunidade Colabcode (logo mais atualizarei com o link). Este desafio consistia na implementação visual e lógica de uma página de error 404 diferente onde provoca uma interação com o usuário por meio de um jogo, o Jokepo (Pedra, Papel e Tesoura). O objetivo é alcançar as 3 vitórias para ganhar da máquina.   
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/vittorduartte/jokepo/main/assets/jokepo-screenshot-home.png" alt="Screenshot Jokepo Homepage" border="0">
+<img src="https://raw.githubusercontent.com/vittorduartte/jokepo/master/assets/jokepo-screenshot-home.png" alt="Screenshot Jokepo Homepage" border="0">
 </p>
 
 <p align="center">
