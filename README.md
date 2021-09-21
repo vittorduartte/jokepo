@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/vittorduartte/jokepo/main/assets/screen-game-video.webm" alt="Video Jokepo Gamepage" border="0">
+<img src="https://raw.githubusercontent.com/vittorduartte/jokepo/master/assets/screen-game-video.gif" alt="Video Jokepo Gamepage" border="0">
 </p>
 
 <p align="center">
