@@ -23,8 +23,8 @@ function restartRound() {
         iconCom.classList.remove("is-stopped");
     }
 
-    iconChoice.setAttribute("src", "./assets/images/icon-rock.svg")
-    iconCom.setAttribute("src", `./assets/images/icon-rock-com.svg`)
+    iconChoice.setAttribute("src", "./src/assets/images/icon-rock.svg")
+    iconCom.setAttribute("src", `./src/assets/images/icon-rock-com.svg`)
 
 }
 
@@ -35,38 +35,38 @@ function getWinnerRound(player, com) {
     if(player==com) {
         return "draw-game";
     } if (player==="rock" && com==="scissors") {
-        iconPlayer.setAttribute("src", "./assets/images/icon-yeah.svg");
-        iconCom.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-yeah.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#player").innerHTML++;
 
         return false;
     } if (player==="rock" && com==="paper") {
-        iconCom.setAttribute("src", "./assets/images/icon-yeah-com.svg");
-        iconPlayer.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-yeah-com.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#com").innerHTML++;
         
         return false;
     } if (player==="paper" && com==="scissors") {
-        iconCom.setAttribute("src", "./assets/images/icon-yeah-com.svg");
-        iconPlayer.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-yeah-com.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#com").innerHTML++;
         
         return false;
     } if (player==="paper" && com==="rock") {
-        iconPlayer.setAttribute("src", "./assets/images/icon-yeah.svg");
-        iconCom.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-yeah.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#player").innerHTML++;
 
         return false;
     } if (player==="scissors" && com==="paper") {
-        iconPlayer.setAttribute("src", "./assets/images/icon-yeah.svg");
-        iconCom.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-yeah.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#player").innerHTML++;
 
         return false;
     } if (player==="scissors" && com==="rock") {
-        iconCom.setAttribute("src", "./assets/images/icon-yeah-com.svg");
-        iconPlayer.setAttribute("src", "./assets/images/icon-destroi.svg");
+        iconCom.setAttribute("src", "./src/assets/images/icon-yeah-com.svg");
+        iconPlayer.setAttribute("src", "./src/assets/images/icon-destroi.svg");
         document.querySelector("span#com").innerHTML++;
         
         return false;
@@ -89,8 +89,8 @@ function selectPlayerChoice(player, com) {
     if (player === "rock") {
         iconChoice.classList.add("is-stopped");
         iconCom.classList.add("is-stopped");
-        iconChoice.setAttribute("src", "./assets/images/icon-rock.svg")
-        iconCom.setAttribute("src", `./assets/images/icon-${com}-com.svg`)
+        iconChoice.setAttribute("src", "./src/assets/images/icon-rock.svg")
+        iconCom.setAttribute("src", `./src/assets/images/icon-${com}-com.svg`)
         labelChoice.classList.add("is-selected");
         choiceIcon.classList.add("is-selected");
 
@@ -103,8 +103,8 @@ function selectPlayerChoice(player, com) {
     } if (player === "scissors") {
         iconChoice.classList.add("is-stopped");
         iconCom.classList.add("is-stopped");
-        iconChoice.setAttribute("src", "./assets/images/icon-scissors.svg")
-        iconCom.setAttribute("src", `./assets/images/icon-${com}-com.svg`)
+        iconChoice.setAttribute("src", "./src/assets/images/icon-scissors.svg")
+        iconCom.setAttribute("src", `./src/assets/images/icon-${com}-com.svg`)
         labelChoice.classList.add("is-selected");
         choiceIcon.classList.add("is-selected");
 
@@ -117,8 +117,8 @@ function selectPlayerChoice(player, com) {
     } if (player === "paper") {
         iconChoice.classList.add("is-stopped");
         iconCom.classList.add("is-stopped");
-        iconChoice.setAttribute("src", "./assets/images/icon-paper.svg")
-        iconCom.setAttribute("src", `./assets/images/icon-${com}-com.svg`)
+        iconChoice.setAttribute("src", "./src/assets/images/icon-paper.svg")
+        iconCom.setAttribute("src", `./src/assets/images/icon-${com}-com.svg`)
         labelChoice.classList.add("is-selected");
         choiceIcon.classList.add("is-selected");
 
