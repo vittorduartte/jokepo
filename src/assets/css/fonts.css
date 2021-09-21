@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Comfortaa-SemiBold';
+    src: url('../fonts/Comfortaa-SemiBold.woff') format('woff'),
+        url('../fonts/Comfortaa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Regular.woff') format('woff'),
+        url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Medium';
+    src: url('../fonts/Comfortaa-Medium.woff') format('woff'),
+        url('../fonts/Comfortaa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comfortaa-Bold.woff') format('woff'),
+        url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('../fonts/Comfortaa-Light.woff') format('woff'),
+        url('../fonts/Comfortaa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-MediumItalic';
+    src: url('../fonts/Bitter-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-SemiBold';
+    src: url('../fonts/Bitter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Bitter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/Bitter-Regular.woff2') format('woff2'),
+        url('../fonts/Bitter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-ThinItalic';
+    src: url('../fonts/Bitter-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-Thin';
+    src: url('../fonts/Bitter-Thin.woff2') format('woff2'),
+        url('../fonts/Bitter-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-SemiBoldItalic';
+    src: url('../fonts/Bitter-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-LightItalic';
+    src: url('../fonts/Bitter-LightItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-ExtraLight';
+    src: url('../fonts/Bitter-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Bitter-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-ExtraLightItalic';
+    src: url('../fonts/Bitter-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-Italic';
+    src: url('../fonts/Bitter-Italic.woff2') format('woff2'),
+        url('../fonts/Bitter-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-Medium';
+    src: url('../fonts/Bitter-Medium.woff2') format('woff2'),
+        url('../fonts/Bitter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-Light';
+    src: url('../fonts/Bitter-Light.woff2') format('woff2'),
+        url('../fonts/Bitter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-ExtraBold';
+    src: url('../fonts/Bitter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Bitter-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-BoldItalic';
+    src: url('../fonts/Bitter-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter-ExtraBoldItalic';
+    src: url('../fonts/Bitter-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Bitter-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+

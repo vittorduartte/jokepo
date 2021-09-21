@@ -1,0 +1,13 @@
+:root {
+    --banana-yellow: #F5E29B;
+}
+
+
+body {
+    background-color: var(--banana-yellow);
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 1270px;
+}
